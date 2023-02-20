@@ -1,0 +1,20 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    width: 1000px;
+    min-height: 200px;
+}
+
+
+
+/* untuk smartphone */
+@media (max-width: 670px ) {
+    nav {
+        width: auto;
+        height: 0 auto;
+        background-color: #2B546A;
+    }
+}

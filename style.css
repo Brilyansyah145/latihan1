@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+}
+
+body {
+    color: #404146;
+    
+}
+
+nav {
+    background-color: #404146;
+    color: white;
+    padding: 20px 40px;
+    display: flex;
+}
+nav ul {
+    display: flex;
+    column-gap: 40px;
+    align-items: center;
+}
+
+li {
+    list-style: none;
+    font-size: 13px;
+}
+
+.jumbotron {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 100px 0;
+}
+
+h2 {
+    font-size: 80px;
+}
+
+.dot {
+    height: 18px;
+    aspect-ratio: 1;
+    background-color: #f1d00e;
+    margin-top: auto;
+    margin-bottom: 20px;
+    border-radius: 100%;
+
+}
+
+.greeting {
+    display: flex;
+    margin: 0 auto;
+}
+
+.ilustration {
+    margin: 0 auto;
+    text-align: center;
+}
+h3 {
+    font-family: "Gill Sans", sans-serif;
+    font-size: 13px;
+    font-weight: 100;
+    padding: 10px 0;
+}
+
+.about {
+    background-color: #f4f4f4;
+    padding: 50px 100px;
+    text-align: center;
+}
+
+.about h4 {
+    margin-bottom: 20px;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.project {
+    padding: 25px 0;
+    text-align: center;
+}
+.card {
+    box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.1);
+}
+
+h4 {
+    margin-bottom: 25px;
+    font-weight: 600;
+    font-family: "Gill Sans", sans-serif;
+}
+.project .list {
+    display: flex;
+    column-gap: 50px;
+    justify-content: space-evenly;
+}
+
+.contact {
+    background-color: #f4f4f4;
+    padding: 50px 100px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    text-align: center;
+    align-items: center;
+   
+}
+form {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    min-width: 600px;
+    row-gap: 15px;
+}
+
+input, textarea {
+    padding: 10px;
+    color: #404146;
+    background-color: white;
+    border-radius: 10px;
+    border: none;
+
+}
+
+button {
+    background-color: #f1d00e;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    min-width: 350px;
+    margin: 0 auto;
+}
+
+footer {
+    background-color: #7c7d82;
+    padding: 25px;
+    color: white;
+    min-height: 120px;
+}
+
+footer h5 {
+    font-size: 50px;
+}
+
+footer ul {
+    float: right;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+
+footer ul li {
+    font-size: 15px;
+
+}
